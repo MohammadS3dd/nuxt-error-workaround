@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi --port 30001 dev",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "nuxt-windicss": "^2.2.2",
+    "nuxt3": "latest"
+  },
+  "dependencies": {}
+}
